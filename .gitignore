@@ -1,0 +1,4 @@
+redset
+*.pyo
+*.pyc
+tags
