@@ -5,7 +5,8 @@ Wrapper for the redshift command line program.
 from subprocess import call
 from os import path
 
-BINDIR='/usr/bin'
+from .defs import BINDIR
+
 REDSHIFT='redshift'
 
 DEFAULT_TEMPERATURE = 6500

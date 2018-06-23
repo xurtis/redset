@@ -1,0 +1,8 @@
+#!/usr/bin/env python2
+
+# Import and run redset
+import sys
+sys.path.insert(0, "@pythondir@")
+
+from redset import run
+run()
