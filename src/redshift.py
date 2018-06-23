@@ -8,7 +8,9 @@ from os import path
 BINDIR='/usr/bin'
 REDSHIFT='redshift'
 
-DEFAULT_TEMPERATURE = 5500
+DEFAULT_TEMPERATURE = 6500
+MIN_TEMPERATURE = 1000
+MAX_TEMPERATURE = 8000
 DEFAULT_BRIGHTNESS = 1.0
 DEFAULT_GAMMA = (1.0, 1.0, 1.0)
 
@@ -16,7 +18,7 @@ class Redshift(object):
 
     def __init__(
         self,
-        temperature=5500,
+        temperature=6500,
         brightness=1.0,
         gamma=(1.0, 1.0, 1.0)
     ):
