@@ -1,0 +1,3 @@
+[submodule "redshift"]
+	path = redshift
+	url = ./redshift
