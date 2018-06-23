@@ -54,7 +54,7 @@ class ControlPanel(Gtk.Window):
     def __add_scale(
         self,
         value=1.0,
-        lower=0.0,
+        lower=0.1,
         upper=1.0,
         step=0.05,
         callback=None,
